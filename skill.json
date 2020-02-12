@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "MarsWeatherSkill",
+          "sourceDir": "lambda/us-east-1_MarsWeatherSkill"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Mars Weather",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6f5f/993189dbd3b542c79439a4bbd5c00e86/APP_ICON?versionId=bgW.OcY3Mn57yGsmg3561a9WzaTh6rJx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200212T154646Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20200212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9a302f0438d7d761620a6838675bbcbe17d9f2976138d5c8fd84bf6ec9a5b7c8",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b547/a445462b1cd4441a84717971055d9232/APP_ICON_LARGE?versionId=NzjhBb_dB8ogHGCWzmhrRk_dOYS0Bv89&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200212T154646Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20200212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4da9c18949461d68866971cb77ffbf11704f3c9cdb0078c7007a37a1f864bb0a",
+          "summary": "Weather forecast in Mars.",
+          "description": "This skill can tell you the weather forecast in Mars for the current day. It is updated every 24 hours and retrieved from the NASA official page.",
+          "examplePhrases": [
+            "Alexa, open mars weather",
+            "Alexa, tell mars weather what is the weather like"
+          ],
+          "keywords": [
+            "mars",
+            "mars",
+            "weather",
+            "weather",
+            "in",
+            "mars",
+            "weather",
+            "mars"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Ask for the weather",
+      "category": "WEATHER",
+      "distributionCountries": []
+    }
+  }
+}

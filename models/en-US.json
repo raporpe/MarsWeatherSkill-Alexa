@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mars weather",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "where do you get it from",
+            "how do you get it",
+            "how ",
+            "help me",
+            "where does the data come from",
+            "how do you do it",
+            "how do you get the weather",
+            "how does it work"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "MarsWeatherIntent",
+          "slots": [],
+          "samples": [
+            "what is it like",
+            "What is the weather like",
+            "What is the weather like on Mars",
+            "tell the weather",
+            "how is it doing",
+            "tell me the weather",
+            "tell me",
+            "tell me the weather in mars",
+            "mars wheather"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "9"
+}
