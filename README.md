@@ -1,5 +1,5 @@
 # Mars Weather Skill
-An Alexa asssitant skill for checking out Mars Weather.
+An Alexa asssitant skill for checking out the weather in Mars (Elysium Planitia).
 Mereorologic data is obtained using the NASA api.
 
-http://bit.ly/marsweatherskill
+bit.ly/marsweather
